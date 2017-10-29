@@ -118,14 +118,14 @@
             navigationPosition: 'right',
             navigationTooltips: [],
             showActiveTooltip: false,
-            slidesNavigation: true,
+            slidesNavigation: false,
             slidesNavPosition: 'bottom',
             scrollBar: false,
             hybrid: false,
 
             //scrolling
             css3: true,
-            scrollingSpeed: 700,
+            scrollingSpeed: 1000,
             autoScrolling: true,
             fitToSection: true,
             fitToSectionDelay: 1000,
@@ -167,7 +167,7 @@
             responsive: 0, //backwards compabitility with responsiveWidth
             responsiveWidth: 0,
             responsiveHeight: 0,
-            responsiveSlides: false,
+            responsiveSlides: true,
             parallax: true,
             parallaxOptions: {
                 type: 'reveal',
