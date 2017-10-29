@@ -9,6 +9,12 @@ justify-content:center;
 
 #nav{
   background-color: black;
+  border-top: solid;
+  border-bottom: solid;
+  border-left: solid;
+  border-right: solid;
+  border-width: 1px;
+  border-color: #f7f5f2;
 
   padding: 0%;
   margin: 0 auto;
@@ -24,7 +30,7 @@ justify-content:center;
 }
 
 #bar {
-  color: white;
+  color: #f7f5f2;
   list-style-type: none;
 
   padding:0%;
@@ -36,20 +42,21 @@ justify-content:center;
   justify-content: flex-end;
 }
 
-#bar li img {
-  display:flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  width: 75%;
-  height: 90%;
-  margin-top: 1%;
-  margin-left: 2%;
-  margin-right: 2%;
+#home_image {
+  background-image: url(img/Home_White.png);
+  background-size: 80% 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#home_image:hover {
+  background-image: url(img/Home_Gold.png);
 }
 
 #bar li {
   font-size: 16pt;
-  font-family: "Bodoni 72 Oldstyle";
+  font-family: "Bodoni 72";
+  font-weight: bold;
   width: calc(100%/5);
   display: flex;
   align-items: center;
@@ -57,32 +64,31 @@ justify-content:center;
 }
 
 #nav_item:hover {
-  border-bottom: 5px solid white;
+  border-bottom: 5px solid #f7f5f2;
 }
 
-#text_window {
-  background-color: grey;
+#landing_banner{
+  color: white;
+  font-family: Arial;
+  display: flex;
+  justify-content:center;
+  align-items: flex-start;
+  margin-top: 10%;
 
-  padding: 0%;
-  margin-top: 30%;
-  margin-left: -25%;
-  opacity:0.3;
-
-  height: 25%;
-  width: 30%;
-
-  position:absolute;
-  z-index: 999;
 }
 
 #slide1{
-  background:aquamarine;
+  background-image: url(img/group_1.jpg);
+  background-size:cover;
+  background-position: 15% 30%;
 }
 
 #slide2{
-  background:yellow;
+  background-image: url(img/Halloween.JPG);
+  background-size:cover;
 }
 
 #slide3{
-  background:purple;
+  background-image: url(img/crystal.JPG);
+  background-size:cover;
 }
