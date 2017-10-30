@@ -76,14 +76,14 @@ Container Div (Black background)*/
 
 
 
-
 /* Fullpage.js Slides*/
 
 #slide1{
   background-image: url(img/group_1.jpg);
   background-size:cover;
-  background-position: 15% 30%;
+  background-position: 0% 50%;
 }
+
 
 #landing_banner{
   font-family: "Bodoni 72 Oldstyle";
@@ -91,14 +91,11 @@ Container Div (Black background)*/
 
   color: white;
 
-  height: 20%;
-  width: 50%;
+  height: 100%;
+  width: 100%;
 
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-
-  margin-top: 0%;
+  text-align: center;
+  margin-top: 30%;
 }
 
 #slide2{
