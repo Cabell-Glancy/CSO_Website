@@ -81,21 +81,32 @@ Container Div (Black background)*/
 #slide1{
   background-image: url(img/group_1.jpg);
   background-size:cover;
-  background-position: 0% 50%;
+  background-position: 0% 100%;
+  opacity: 0.7;
 }
 
 
 #landing_banner{
   font-family: "Bodoni 72 Oldstyle";
-  font-size: 32pt;
+  font-size: 48pt;
 
-  color: white;
+  color: black;
+  opacity: 1;
 
   height: 100%;
   width: 100%;
 
   text-align: center;
-  margin-top: 30%;
+  margin-top: 10%;
+
+}
+
+
+#landing_cover{
+  color: grey;
+  height:100%;
+  width:100%;
+  opacity: 0.3;
 }
 
 #slide2{
