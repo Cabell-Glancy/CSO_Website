@@ -105,23 +105,59 @@ Container Div (Black background)*/
   width:100%;
 }
 
+
+
 #slide2{
   background-image: url(img/Halloween.JPG);
   background-size:cover;
 }
-#message_2{
-  background-color:
+#message_back2{
+  background-color: rgba(35,31,32,0.6);
   width: 30%;
-  height: 20%;
-  position: relative;
-  display: flex;
-  align-self: center;
+  height: 25%;
+  margin-top: 35%;
+  margin-left: 65%;
+  margin-right: 2.5%;
 
+}
+
+#message_2{
+  color: white;
+  font-size: 16pt;
+  font-family: "Bodoni 72";
+  font-weight: bold;
+  padding-left: 2%;
+  width: 95%;
+  height: 98%;
+  display: flex;
+  justify-content: flex-start;
 }
 
 #slide3{
   background-image: url(img/crystal.JPG);
   background-size:cover;
+}
+
+#message_back3{
+  background-color: rgba(35,31,32,0.6);
+  width: 30%;
+  height: 25%;
+  margin-bottom: 10%;
+  margin-left: 58%;
+  margin-right: 2.5%;
+
+}
+
+#message_3{
+  color: white;
+  font-size: 16pt;
+  font-family: "Bodoni 72";
+  font-weight: bold;
+  padding-left: 2%;
+  width: 95%;
+  height: 98%;
+  display: flex;
+  justify-content: flex-start;
 }
 
 /* End of Fullpage.js Slides*/
