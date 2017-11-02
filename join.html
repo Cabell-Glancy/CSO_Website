@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>CSO Home</title>
+<!--    need to link these things below for fullpage.js to work!-->
+    <link rel="stylesheet" href="jstyles.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="jquery.fullPage.css"/>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript" src="jquery.fullPage.js"></script>
+  <!--  <script type="text/javascript">
+    $(document).ready(function () {
+    $('#fullpage').fullpage({
+        sectionsColor: ['#1bbc9b', '#4BBFC3'],
+        loopBottom: true,
+        afterRender: function () {
+            setInterval(function () {
+                $.fn.fullpage.moveSlideRight();
+            }, 15000);
+          }
+        });
+      });-->
+
+    </script>
+
+    <script src="main.js"></script>
+
+</head>
+
+<body>
+<div id= "nav">
+  <ul id= "bar">
+    <li id="home_image"> </li>
+    <li id= "nav_item"> About </li>
+    <li id= "nav_item"> Join </li>
+    <li id= "nav_item"> Concerts </li>
+    <li id= "nav_item"> Support Us </li>
+    <li id= "nav_item"> Members </li>
+  </ul>
+</div>
+
+
+  <div id="fullpage">
+       <div class="section">
+        <div class="header">
+          <h1>Join CSO today!</h1>
+          <!-- <h2>Sign up for our email list</h2> -->
+          <!-- <form action="/action_page.php">
+            <label for="fname">email:</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your email:">
+            <button class="button">APPLY</button> -->
+        </div>
+        <div class="phil">
+          <div class="info">
+             <h2>Join Philharmonic</h2>
+             <p>Auditon Required</p>
+             <p>Rehearsals are Sunday 3:00 - 3:45 pm</p>
+             <p>Plays grade 4-6</p>
+             <p>Plays 2-4 Additional pieces a semester</p>
+             <p>Can apply for exec board, committees, section leader, and conductor</p>
+          </div>
+          </br>
+          <button class="apply-button">APPLY</button>
+        </div>
+        
+      </div>
+    </div>
+
+
+
+
+</body>
+</html>
